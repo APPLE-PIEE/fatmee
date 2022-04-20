@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thông tin khách hàng</title>
+    <link rel="stylesheet" href="./css/thong_tin_KH.css">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+    integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="/Home_main_page/css/reset.css" />
+</head>
+<body>
+    <script src="./js/don_hang.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+    <!-- <img src="/edit_menu/frames/Danh_muc_mon_an/Them_danh_muc/them_danh_muc.html" alt=""> -->
+    <div class="khuyen_mai_container">
+        <div class="title">
+            <ul>
+                <li><h3>Nguyễn Minh Tuấn</h3></li>
+                <li class="right"><button>Lưu</button></li>
+                <li class="right">
+                    <button>Thoát</button>
+                </li>
+            </ul>
+        </div>
+        <div class="btn_option">
+            <button onclick="openMore('history')">Lịch sử mua hàng</button>
+            <button onclick="openMore('info')">Thông tin mua hàng</button>
+            <button onclick="openMore('contact')">Thông tin liên hệ</button>
+        </div>
+        <div class="sap_xep">
+            <div id="history" class="more">
+                <iframe src="./history/history.html" frameborder="0"></iframe>
+            </div>
+            <div id="info" class="more" style="display:none">
+                <iframe src="./info/mua_hang.html" frameborder="0"></iframe>
+            </div>
+            <div id="contact" class="more" style="display:none">
+                <iframe src="./contact/contact.html" frameborder="0"></iframe>
+            </div>
+        </div>
+    </div>
+    <script src="./js/tong_tin_KH.js"></script>
+  </body>
+</html>

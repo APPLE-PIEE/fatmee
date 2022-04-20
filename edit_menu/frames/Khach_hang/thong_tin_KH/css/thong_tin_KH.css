@@ -1,0 +1,121 @@
+ul{
+    list-style-type: none;
+  }
+  *{
+    line-height: 35px;
+    padding: 0;
+    margin: 0;
+  }
+  html {
+    font-size: 62.5%;
+  }
+  body {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.4;
+  }
+  :root {
+    --color-primary: #ff5500;
+    --color-secondary: #ffb300;
+    --color-button-main: #ff5500;
+    --color-button-hover: #ff7c3a;
+    --color-button-edit: #ebebeb;
+    --color-background: #f5f5f5;
+}
+.khuyen_mai_container{
+    width: 1180px;
+    height: 600px;
+}
+.khuyen_mai_container h3{
+    margin-top: 0.5rem;
+    color: var(--color-primary);
+    padding-left: 1rem;
+}
+.title{
+    width: 100%;
+    height: 5rem;
+    border: 1px solid var(--color-button-edit);
+    background-color: white;
+    /* position: fixed;
+    margin: 0;
+    padding: 0;
+    top: 0; */
+}
+h2{
+    color: var(--color-primary);
+}
+.title ul,li{
+    margin-top: 2px;
+    display: flex;
+    width: 100%;
+    padding-left: 1rem;
+}
+.right {
+    width: 200px !important;
+    height: 100%;
+    float: right;
+    margin-right: 2rem;
+}
+.right button {
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-primary);
+    border: none;
+    border-radius: 1rem;
+    color: white;
+}
+.right button:hover{
+    background-color: var(--color-button-hover);
+}
+.btn_search{
+    width: 10rem;
+    height: 100%;
+    border: none;
+    background-color: var(--color-button-main);
+    color: white;
+    border-radius: 5px;
+    /* margin-left: 9rem; */
+}
+.btn_search:hover{
+    background-color: var(--color-button-hover);
+}
+.time{
+    width: 14rem;
+    height: 3rem;
+    margin-bottom: 2rem;
+}
+
+.show{
+    width: 98%;
+    height: 580px;
+    border: 1px solid black;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.btn_option {
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+.btn_option button{
+    width: 15rem;
+    border: none;
+    background-color: white;
+    font-size: 1.6rem;
+}
+.btn_option button:focus{
+    border-bottom: 1px solid var(--color-primary);
+}
+.sap_xep{
+    /* padding-top: 0.5rem; */
+    background-color: white;
+    /* margin-top: 10px; */
+    width: 100%;
+    height: 60rem;
+    border-radius: 3px;
+    border: 0.5px solid var(--color-button-edit)
+}
+.sap_xep iframe{
+    width: 100%;
+    height: 600px !important;
+    /* border: 1px solid black; */
+}

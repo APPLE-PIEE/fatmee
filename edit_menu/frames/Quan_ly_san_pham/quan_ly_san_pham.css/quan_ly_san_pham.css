@@ -1,0 +1,356 @@
+    ul {
+        list-style-type: none;
+    }
+    
+    * {
+        line-height: 35px;
+        padding: 0;
+        margin: 0;
+    }
+    
+    html {
+        font-size: 62.5%;
+    }
+    
+    body {
+        font-family: "Source Sans Pro", sans-serif;
+        font-size: 1.6rem;
+        line-height: 1.4;
+    }
+    
+     :root {
+        --color-primary: #ff5500;
+        --color-secondary: #ffb300;
+        --color-button-main: #ff5500;
+        --color-button-hover: #ff7c3a;
+        --color-button-edit: #ebebeb;
+        --color-background: #f5f5f5;
+    }
+    
+    .quan_ly_san_pham_container {
+        width: 1180px;
+        height: 100%;
+        font-size: 2rem;
+    }
+    
+    .header_container {
+        background-color: white;
+        height: 4.7rem;
+        width: 100%;
+        padding-top: 5px;
+        border: 1px solid var(--color-background);
+        border-radius: 5px;
+    }
+    
+    .header_container h3 {
+        padding-left: 2rem;
+        color: var(--color-primary);
+    }
+    
+    .header_container ul,
+    li {
+        display: flex;
+        float: left;
+        width: 100%;
+    }
+    
+    .btn_add {
+        width: 15rem;
+        height: 100%;
+        float: right;
+        padding-right: 1rem;
+    }
+    
+    .btn_add button {
+        width: 100%;
+        height: 100%;
+        border: none;
+        border-radius: 5px;
+        background-color: var(--color-button-main);
+        color: white;
+    }
+    
+    .btn_add button:hover {
+        background-color: var(--color-button-hover);
+    }
+    
+    .btn {
+        float: right;
+        margin-top: 1rem;
+        margin-right: 3rem;
+        width: 13rem;
+        height: 4rem;
+    }
+    
+    .btn button {
+        background-color: var(--color-button-main);
+        color: white;
+        width: 100%;
+        height: 100%;
+        border: none;
+        border-radius: 1rem;
+    }
+    
+    .btn button:hover {
+        background-color: var(--color-button-hover);
+    }
+    
+    .body_container {
+        background-color: white;
+        margin-top: 1rem;
+        height: 65rem;
+        width: 100%;
+        padding-top: 1rem;
+        border-radius: 5px;
+        border: 1px solid var(--color-background);
+    }
+    
+    .part1 {
+        width: 100%;
+        height: 5rem;
+    }
+    
+    .part1 ul {
+        display: flex;
+        float: left;
+        width: 100%;
+    }
+    
+    .part1 li {
+        width: 25rem;
+        padding-left: 2rem;
+    }
+    
+    .part1 i {
+        font-size: 3rem;
+        padding-right: 1rem;
+        color: var(--color-primary);
+    }
+    
+    .part1 input {
+        width: 2.5rem;
+        margin-right: 1rem;
+        height: 2.5rem;
+        margin-left: 2rem;
+    }
+    
+    .part1 a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .sap_xep {
+        width: 100%;
+        height: 5rem;
+        padding-left: 1rem;
+    }
+    
+    .sap_xep ul {
+        display: flex;
+        float: left;
+        width: 100%;
+    }
+    
+    .sap_xep li {
+        width: 25rem;
+        padding-left: 1rem;
+    }
+    
+    .sap_xep i {
+        font-size: 3rem;
+        padding-right: 2rem;
+        color: var(--color-primary);
+    }
+    
+    .status {
+        width: 19rem !important;
+        height: 100%;
+    }
+    
+    .search input {
+        width: 100% !important;
+        height: 2rem;
+    }
+    
+    .date_time {
+        width: 21.5rem !important;
+        height: 100% !important;
+        border-radius: 5px;
+        border: none;
+    }
+    
+    .date_time input {
+        width: 100%;
+        height: 4rem;
+        border-radius: 5px;
+        padding-left: 1rem;
+        border: solid 1px black;
+    }
+    
+    .sap_xep select {
+        width: 100%;
+        height: 4rem;
+        border-radius: 5px;
+        padding-left: 1rem;
+        border: solid 1px black;
+    }
+    
+    .sap_xep button {
+        width: 60%;
+        height: 100%;
+        margin-left: 2rem;
+        background-color: var(--color-button-main);
+        border: none;
+        border-radius: 5px;
+        color: white;
+        float: right;
+    }
+    
+    .sap_xep button:hover {
+        background-color: var(--color-button-hover);
+    }
+    
+    .check_box {
+        width: 6rem !important;
+        margin-left: 1rem;
+    }
+    
+    .check_box input {
+        width: 4rem;
+        height: 4rem;
+        margin-right: 3px;
+    }
+    
+    .search {
+        margin-left: 2rem !important;
+        width: 100%;
+        height: 4rem;
+    }
+    
+    .search input {
+        width: 80%;
+        height: 100%;
+        padding-left: 1rem;
+        border-radius: 5px;
+        border: 1px solid black;
+    }
+    
+    .thong_tin {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .scroll_table {
+        margin-top: 2rem;
+        margin-left: 2%;
+        height: 50rem;
+        width: 95%;
+        overflow-y: auto;
+        border: 1px solid var(--color-background);
+        border-collapse: collapse;
+        text-align: center;
+    }
+    
+    .scroll_table th,
+    td {
+        width: 100rem;
+    }
+    
+    .scroll_table thead th {
+        position: sticky !important;
+        top: 0 !important;
+        background-color: gray;
+        color: black;
+    }
+    
+    .scroll_table input {
+        width: 3rem;
+        height: 3rem;
+    }
+    
+    .scroll_table img {
+        width: 10rem;
+        height: 10rem;
+    }
+    
+    .img_col {
+        width: 100px;
+    }
+    
+    .more_button {
+        width: 8rem;
+        height: 3rem;
+        border: none;
+        background-color: unset;
+        font-size: 2rem;
+    }
+    
+    .more_button i {
+        color: grey;
+    }
+    
+    .more_button i:hover {
+        color: var(--color-button-hover);
+    }
+    
+    .dropdown_more_btn {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .dropdown_content_more {
+        margin-left: -2rem;
+        text-align: left;
+        display: none;
+        position: absolute;
+        min-width: 130px;
+        z-index: 1;
+        border-radius: 3px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px 6px 6px rgba(0, 0, 0, 10);
+        -moz-box-shadow: 0px 0px 6px rgba(0, 0, 0, 10);
+        -webkit-box-shadow: 0px 0px 6px rgba(0, 0, 0, 10);
+    }
+    
+    .dropdown_content_more i {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+    
+    .dropdown_content_more a {
+        color: black;
+        text-decoration: none;
+        display: block;
+    }
+    
+    .dropdown_content_more a:hover {
+        color: var(--color-button-hover);
+    }
+    
+    .dropdown_more_btn:hover .dropdown_content_more {
+        display: block;
+    }
+    
+    .dropdown_more_btn:hover .more_button {
+        color: var(--color-button-hover);
+    }
+    
+    .date {
+        width: 100%;
+        height: 2rem;
+    }
+    
+    .btn_a_them_mon {
+        width: 15rem;
+        background-color: #FF5500;
+        border-radius: 5px;
+        text-align: center;
+        float: right;
+        font-size: 15.3333px;
+        color: white;
+        text-decoration: none;
+    }
+    
+    .btn_a_them_mon:hover {
+        background-color: var(--color-button-hover);
+    }

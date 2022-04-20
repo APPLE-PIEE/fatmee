@@ -1,0 +1,173 @@
+ul{
+    list-style-type: none;
+  }
+  *{
+    line-height: 35px;
+    padding: 0;
+    margin: 0;
+  }
+  html {
+    font-size: 62.5%;
+  }
+  body {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.4;
+  }
+  :root {
+    --color-primary: #ff5500;
+    --color-secondary: #ffb300;
+    --color-button-main: #ff5500;
+    --color-button-hover: #ff7c3a;
+    --color-button-edit: #ebebeb;
+    --color-background: #f5f5f5;
+}
+.thongtin_sanpham_container{
+  width: 1150px;
+  height: 50rem;
+}
+.thongtin_sanpham_container h3{
+  color: var(--color-primary);
+}
+.header_container{
+  background-color: white;
+  width: 100%;
+  height: 4rem;
+  border: 1px solid var(--color-button-edit);
+  border-radius: 1rem;
+  padding-left: 1rem;
+  font-size: 1.7rem;
+  color: var(--color-button-main)
+}
+.thong_tin{
+  background-color: white;
+  float: left;
+  width: 69%;
+  height: 45rem;
+  border: 1px solid var(--color-button-edit);
+  margin-top: 1rem;
+  border-radius: 5px;
+  padding-left: 2rem;
+}
+.error{
+  width: 100%;
+  height: 2.3rem;
+}
+.error a{
+  color: red;
+}
+.thong_tin h3{
+  color: var(--color-primary);
+}.san_pham_moi{
+  height: 37rem;
+}
+.san_pham_moi{
+  width: 100%;
+  height: 31rem;
+}
+.san_pham_moi textarea{
+  font-size: 1.5rem;
+  width: 75rem;
+  height: 20rem;
+  padding-left: 2rem;
+  border-radius: 1rem;
+  border: 0.25px solid black;
+}
+.san_pham_moi input{
+  width: 75rem;
+  height: 3rem;
+  padding-left: 2rem;
+  border-radius: 1rem;
+  border: 0.25px solid black;
+}
+
+.hinh_anh{
+  width: 75rem;
+  height: 10rem;
+}
+/* .add_img{
+  width: 100%;
+  height: 30rem;
+  background-color: var(--color-background);
+  border-radius: 1rem;
+}
+.add_img i{
+  font-size: 20rem;
+  color: var(--color-button-edit);
+  margin-top: 3rem;
+  margin-left: 25rem;
+}
+.add_img button{
+  width: 12rem;
+  height: 4rem;
+  margin-top: 1rem;
+  margin-left: 30rem;
+  border-radius: 1rem;
+  border: none;
+  background-color: var(--color-button-main);
+  color: white;
+} */
+.add_img button:hover{
+  background-color: var(--color-button-hover);
+}
+.trang_thai{
+  background-color: white;
+  width: 30%;
+  float: left;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  height: 27rem;
+  border: 1px solid var(--color-button-edit);
+  border-radius: 1rem;
+  padding-left: 1rem;
+}
+.trang_thai input, select{
+  padding-left: 5px;
+}
+.trang_thai a{
+  padding-left: 1rem;
+}
+.trang_thai select{
+  width: 30rem;
+  height: 3rem;
+  margin-top: 1rem;
+  border: 1px solid black;
+}
+.money{
+  border: 1px solid black;
+  margin-top: 1rem;
+  width: 30rem;
+  height: 3rem;
+}
+.save{
+  width: 100%;
+  height: 5rem;
+  margin-top: 3rem;
+}
+.save h3{
+  color: white;
+}
+.save button{
+  text-align: center;
+  width: 12rem;
+  height: 5rem;
+  margin-left: 2.5rem;
+  border: none;
+  border-radius: 10rem;
+  background-color: var(--color-button-main);
+}
+.save button:hover{
+  background-color: var(--color-button-hover);
+}
+#name{
+  border-radius: 1px solid black;
+}
+#img{
+  border-radius: 1px solid black;
+}
+.trung{
+  margin-top: 1rem;
+  color: red;
+  width: 100%;
+  text-align: center;
+}

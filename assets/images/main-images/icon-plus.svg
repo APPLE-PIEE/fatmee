@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="filter_1">
+      <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.3882353 0 0 0 0 0.37254903 0 0 0 0 0.52156866 0 0 0 1 0" />
+    </filter>
+    <path d="M0 0L30 0L30 30L0 30L0 0Z" id="path_1" />
+    <clipPath id="mask_1">
+      <use xlink:href="#path_1" />
+    </clipPath>
+  </defs>
+  <g id="Plus-icon" filter="url(#filter_1)">
+    <path d="M0 0L30 0L30 30L0 30L0 0Z" id="Background" fill="none" fill-rule="evenodd" stroke="none" />
+    <g clip-path="url(#mask_1)">
+      <path d="M15 3C8.373 3 3 8.373 3 15C3 21.627 8.373 27 15 27C21.627 27 27 21.627 27 15C27 8.373 21.627 3 15 3L15 3ZM21 16L16 16L16 21C16 21.553 15.552 22 15 22C14.448 22 14 21.553 14 21L14 16L9 16C8.448 16 8 15.553 8 15C8 14.447 8.448 14 9 14L14 14L14 9C14 8.447 14.448 8 15 8C15.552 8 16 8.447 16 9L16 14L21 14C21.552 14 22 14.447 22 15C22 15.553 21.552 16 21 16L21 16Z" id="Shape" fill="#FFFFFF" fill-rule="evenodd" stroke="none" />
+    </g>
+  </g>
+</svg>

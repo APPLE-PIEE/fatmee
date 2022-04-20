@@ -1,0 +1,195 @@
+ul{
+    list-style-type: none;
+  }
+  *{
+    line-height: 35px;
+    padding: 0;
+    margin: 0;
+  }
+  html {
+    font-size: 62.5%;
+  }
+  body {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.4;
+  }
+  :root {
+    --color-primary: #ff5500;
+    --color-secondary: #ffb300;
+    --color-button-main: #ff5500;
+    --color-button-hover: #ff7c3a;
+    --color-button-edit: #ebebeb;
+    --color-background: #f5f5f5;
+}
+.khuyen_mai_container{
+    width: 1180px;
+    height: 700px;
+}
+.khuyen_mai_container h3{
+    margin-top: 0.5rem;
+    color: var(--color-primary);
+    padding-left: 1rem;
+}
+.header{
+    background-color: white;
+    width: 100%;
+    height: 4.7rem;
+    border-radius: 3px;
+    border: 0.5px solid var(--color-button-edit)
+}
+.header button{
+    float: right;
+    margin-right: 1rem;
+    margin-top: -3.5rem;
+    border: none;
+    background-color: var(--color-primary);
+    width: 15rem;
+    color: white;
+    border-radius: 5px;
+}
+.header button:hover{
+    background-color: var(--color-button-hover);
+}
+
+.sap_xep ul,li{
+    float: left;
+    margin-left: 9px;
+    margin-top: 0.35rem;
+    margin-right: 1rem;
+}
+
+.sap_xep select,input{
+    margin-top: -1rem;
+    margin-left: 1rem;
+    padding-left:5px;
+}
+.sap_xep select,input{
+    width: 15rem;
+    height: 3rem;
+}
+
+.btn_search{
+    width: 10rem;
+    height: 100%;
+    border: none;
+    background-color: var(--color-button-main);
+    color: white;
+    border-radius: 5px;
+    /* margin-left: 9rem; */
+}
+.btn_search:hover{
+    background-color: var(--color-button-hover);
+}
+.time{
+    width: 14rem;
+    height: 3rem;
+    margin-bottom: 2rem;
+}
+.btn_del{
+    border: none;
+    background-color: var(--color-primary);
+    color: white;
+    float: right;
+    margin-top: 1.5rem;
+    margin-right: 3.5rem;
+    width: 10rem;
+    height: 4rem;
+    border-radius: 5px;
+}
+.more_button_col{
+    width: 12rem !important;
+}
+.more_button{
+    width: 3rem;
+    height: 3rem;
+    border: none;
+    background-color: unset;
+    font-size: 2rem;
+}
+.more_button i{
+    color: grey;
+}
+.more_button i:hover{
+    color: var(--color-button-hover);
+}
+.dropdown_more_btn {
+    position: relative;
+    display: inline-block;
+}
+.dropdown_content{
+    width: 90px !important;
+    margin-left: -3rem;
+    text-align: left;
+    padding-left: 10px;
+    display: none;
+    position: absolute;
+    padding-top: 1px;
+    z-index: 1;
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 10);
+    -moz-box-shadow: 0px 0px 6px rgba(0, 0, 0, 10);
+    -webkit-box-shadow: 0px 0px 6px rgba(0, 0, 0, 10);
+}
+.dropdown_content i{
+    padding-right: 5px;
+}
+.dropdown_content a {
+    color: black;
+    text-decoration: none;
+    margin-top: 1px;
+    display: block;
+}
+.dropdown_content a:hover {color: var(--color-button-hover);}
+
+.dropdown_more_btn:hover .dropdown_content {display: block;}
+
+.dropdown_more_btn:hover .more_button {color:var(--color-button-hover);}
+.scroll_table {
+    margin-top: 1rem;
+    margin-left: 2%;
+    height: 50rem;
+    width: 95%;
+    overflow-y: auto;
+    border: 1px solid var(--color-background);
+    border-collapse: collapse;
+    text-align: center;
+}
+.scroll_table table{
+    width: 100%;
+    /* margin-top: 1rem; */
+}
+/* .scroll_table th,td{
+    width: 100rem;
+} */
+.scroll_table thead th{
+    position: sticky !important;
+    top: 0 !important;
+    background-color: gray;
+    color: black;
+}
+.scroll_table input{
+    width: 2rem;
+    height: 2rem;
+}
+.scroll_table img{
+    width: 10rem;
+    height: 10rem;
+}
+.checked_btn{
+    width: 8rem;
+    padding-top: 5px;
+    
+}
+.checked_btn input{
+    margin-left: -2rem ;
+}
+.all{
+    margin-left: 1px !important;
+    width: 2.2rem ;
+    height: 2.2rem;
+}
+.tong_don{
+    width: 10rem !important;
+}

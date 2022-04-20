@@ -1,0 +1,268 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: 'Source San Pro', sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.4;
+}
+/* common CSS */
+:root {
+  --color-primary: #ff5500;
+  --color-secondary: #ffb300;
+  --color-button-main: #ff5500;
+  --color-button-hover: #ff7c3a;
+  --color-button-edit: #ebebeb;
+  --color-background: #f5f5f5;
+}
+.upcase {
+  text-transform: uppercase !important;
+}
+.light {
+  font-weight: 300 !important;
+}
+.bold {
+  font-weight: 700 !important;
+}
+.semi-bold {
+  font-weight: 600 !important;
+}
+.sub-link {
+  font-weight: 500;
+  color: var(--color-primary);
+}
+.sub-link:hover {
+  color: var(--color-button-hover);
+}
+.m-10-0 {
+  margin: 1rem 0;
+}
+.m-20-0 {
+  margin: 2rem 0;
+}
+.m-40-0 {
+  margin: 4rem 0;
+}
+/* CSS main */
+.image-main-auth {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.image-main-auth img {
+  max-height: 50px;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  background: url(../images/Group\ 51.png) top left no-repeat,
+    linear-gradient(to left, rgb(253, 121, 55), rgb(232, 210, 199));
+  background-size: contain, auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+}
+.form-login {
+  width: 100%;
+  max-width: 400px;
+  padding: 3.5rem;
+  background: #fff;
+  border-radius: 2rem;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.form-login h1 {
+  font-size: 4rem;
+  margin-bottom: 3rem;
+}
+.form-login .sub-text {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+.form-login .error {
+  color: #ff3333 !important;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 1.6rem;
+  padding: 0.5rem 1rem;
+  /* display: none; */
+}
+.form-login .form-group {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.form-login .form-group .input-text {
+  width: 100%;
+  padding: 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 2rem;
+  font-size: 1.6rem;
+  outline: none;
+  margin-bottom: 1rem;
+}
+.form-login .form-group .input-text:focus {
+  border: 1px solid var(--color-primary);
+}
+.form-login .form-group .input-text::placeholder {
+  color: #aaa;
+  font-size: 1.6rem;
+}
+.form-login .form-group button {
+  width: 100%;
+  padding: 1rem;
+  border: none;
+  border-radius: 2rem;
+  font-size: 2.4rem;
+  font-weight: 600;
+  background: var(--color-button-main);
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+  outline: none;
+  margin-top: 1.5rem;
+}
+.form-login .form-group button:hover {
+  background: var(--color-button-hover);
+}
+.form-login .form-group p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin: 0 1.5rem;
+}
+.or {
+  position: relative;
+}
+.or .abs-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #000;
+  background-color: #fff;
+  padding: 0.5rem 1rem;
+}
+.or hr {
+  width: 100%;
+  border: 1px solid #ddd;
+  margin: 0;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+ul li .icon {
+  font-size: 5rem;
+  text-decoration: none;
+}
+#fb {
+  color: rgb(59, 89, 152);
+}
+#apple {
+  color: black;
+}
+#gg {
+  color: rgb(220, 78, 65);
+}
+#tw {
+  color: rgb(85, 172, 238);
+}
+@media only screen and (min-width: 1425px) {
+  .form-login {
+    display: block;
+    margin: 0 auto;
+    margin-right: 15%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .form-login {
+    padding: 2.5rem;
+  }
+  .form-login .form-group {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .form-login .form-group .input-text {
+    padding: 1rem;
+    font-size: 1.4rem;
+  }
+  .form-login .form-group .input-text::placeholder {
+    font-size: 1.4rem;
+  }
+  .form-login .form-group button {
+    font-size: 2rem;
+  }
+  .or {
+    margin-top: 2rem;
+  }
+  .or .abs-text {
+    font-size: 1.4rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .form-login {
+    padding: 2.5rem;
+  }
+  .form-login .form-group {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .form-login .form-group .input-text {
+    padding: 1rem;
+    font-size: 1.2rem;
+  }
+  .form-login .form-group .input-text::placeholder {
+    font-size: 1.2rem;
+  }
+  .form-login .form-group button {
+    font-size: 1.8rem;
+  }
+  .or {
+    margin-top: 2rem;
+  }
+  .or .abs-text {
+    font-size: 1.2rem;
+  }
+}
+.sub-link {
+  display: inline-block;
+  position: relative;
+  color: var(--color-primary);
+}
+
+.sub-link:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-button-hover);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.sub-link:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.relative {
+  position: relative;
+}
+.relative  i {
+  position: absolute;
+  right: 2rem;
+  top: 50%;
+  transform: translateY(calc(-50% - 0.5rem));
+  color: #ddd;
+}
+.relative  i:hover {
+  color: var(--color-button-hover);
+  cursor: pointer;
+}

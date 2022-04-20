@@ -1,0 +1,27 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run sass main page",
+      "type": "shell",
+      "command": "sass ./assets/scss/main-page/app.scss ./assets/css/main-page/app.css --watch",
+    },
+    {
+      "label": "Run sass blog",
+      "type": "shell",
+      "command": "sass ./assets/scss/blog/app.scss ./assets/css/blog/app.css --watch",
+    },
+    {
+      "label": "Run sass contact",
+      "type": "shell",
+      "command": "sass ./assets/scss/contact/app.scss ./assets/css/contact/contact.css --watch",
+    },
+    {
+      "label": "Run sass food",
+      "type": "shell",
+      "command": "sass ./assets/scss/food/app.scss ./assets/css/food/monan.css --watch",
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thông tin danh mục</title>
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="/Home_main_page/css/reset.css">
+    <link rel="stylesheet" href="../Them_danh_muc/css/them_danh_muc.css">
+</head>
+
+<body>
+    <script src="./js/thong_tin_danh_muc.js"></script>
+    <div class="them_ma_container">
+        <div class="title">
+            <ul>
+                <li>
+                    <h2>Thông tin danh mục sản phẩm</h2>
+                </li>
+                <li class="right">
+                    <button onclick="save()">Lưu</button>
+                </li>
+                <li class="right">
+                    <button onclick="cancle()">Huỷ</button>
+                </li>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="content">
+                <div class="left">
+                    <label for="">Tên danh mục (*)</label>
+                    <a id="show_error"></a><br>
+                    <input class="ten" type="text" id="name" placeholder="Nhập tên danh mục"><br>
+                    <label for="">Mô tả (*)</label>
+                    <a id="content_error"></a><br>
+                    <textarea name="" id="descript" cols="30" rows="10" placeholder="Nhập nội dung danh mục sản phẩm"></textarea>
+                    <br>
+                </div>
+                <div class="right">
+                    <label for="">Trạng thái</label><br>
+                    <select name="" id="">
+                            <option value="">Đang áp dụng</option>
+                            <option value="">Sắp xảy ra</option>
+                            <option value="">Ngưng áp dụng</option>
+                        </select>
+                    <br>
+                    <label for="">Thời gian (*)</label><br>
+                    <input type="date" class="date_time" id="date">
+                    <p style="color: red" id="error"></p>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

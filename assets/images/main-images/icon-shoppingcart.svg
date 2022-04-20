@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="90px" height="90px" viewBox="0 0 90 90" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient x1="0.2557305" y1="0.5" x2="0.691356" y2="0.7619059" id="gradient_1">
+      <stop offset="0%" stop-color="#FF7D00" />
+      <stop offset="100%" stop-color="#F4A11A" />
+    </linearGradient>
+    <image width="90" height="90" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAYAAAA4qEECAAAABHNCSVQICAgIfAhkiAAAA7JJREFUeJztnO9ZGzEMxl91AegG3qDpBmEDNihMABsAE7QbQCdoN2iYgMsEjFCYQP1wlz5wiQ/9se+Si37fyNmynvcUWbIBIAiCIAiCIAiCIAiCINiCma+Y+YnnwxMzfyulD3kNMPMpgD8AFn539pIGwBkRvXiMlBD6CfMVeUNDRF89Bj55JjPzNeYvMgAsmPnCY8AV0UcSzRtcUe0Vmj3zDw0iMuvlSh0O7tBuMATgrPt5DmuVh5mXxrJpZ6ph5kWBkqz2WuY0OXZE3xFRs+tB93nJaKux1qnVGY/Qlrf7+4PnK4PNMddKhjkAfEKr324uwt48X5m9GWetZHIGPqHVi3pyXGmMvkySOpJhzrljvdJYfJlkMzwxzLnah6jufLia2g8RzrLrppLd/wzYv6lh9yPMnY5nUSDfZXnt1rZv7Q5NqYOZl5Z5c4CNqW+qFvyQMVUeVqEn39AmJFkmWYU215MbBr6Ca6/tnA3r175HskyyCm1arEfuZQ12dEJyNtwBYrUxpdC56HooYDtno0REj7oZWpqVPjtvmLsziEeH3ceBc4xit9paTDVhqVoXwOddt8tdLl1B/0JfASx3HShxe1v/1+JkH0stPXV5d73rw06oJVrhpGRFHlprb2H7zUqONLDWgplXAhuroYqCmVNhn9V5euqIBoDvuQdE1BDREu1d30+8L9vW3WdnRDQUyYNrGClRvQzDzNeFo4OZ+baiv7cV/L3Q+mGJ6Bpv88bi/Ed0NrMnhQ6SdoJFaPUiQu554PhUS2frvpS9HqOkDsnm5OEXD2yQAv9SZ6MmK61flogu0awMcQ7gmdsDenHkMPMpt1H8jP26MgNgaFiYR/81sAZtS90AeN1UF9yWWCdoW+ILjHyiqG1aDkHovUQrtCp18BHfrPRhZdOyDw3LoaKqPLRCH/PNSp+kGawVun79eDgkzWCt0CrjM6dq6kjK8XOm6mZYu1mZLapaMGro92hq6SjvRkIsdDQr22ialohoH+LKQyN0NCvbJOlAjdDRrGyTpAM1QouNHhFVUkfS+zF7qmyG0aw4EBfc0azsRtq0RHk3EiKho1nJI21aIqL9iCoPqdDRrORJkkFSoaNZyZMkg6RCi4wdKUVTR7L7MXuKbobRrOQRaSMqtqNZGUbStER5NxJSoUv8NetcEWkjFfrB7sfs+SEZpDlUagB8MbszT9ZEVLwFXyJSyFvWaDURIRaaiF66t3eJ4xZ8DeCSiBbe/ykdBEEQBEEQBEEQBEFwqPwDA5+Je7RzLqEAAAAASUVORK5CYII=" id="img_1" />
+    <pattern patternUnits="objectBoundingBox" y="-0%" height="100%" width="100%" id="pattern_1">
+      <use xlink:href="#img_1" transform="scale(1,1)" />
+      <path d="M0 0L90 0L90 90L0 90L0 0Z" id="ShapePath" fill="url(#gradient_1)" fill-rule="evenodd" stroke="none" />
+    </pattern>
+  </defs>
+  <path d="M0 0L90 0L90 90L0 90L0 0Z" id="ShapePath" fill="url(#pattern_1)" fill-rule="evenodd" stroke="none" />
+</svg>

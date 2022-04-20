@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Liên hệ khách hàng</title>
+        <link rel="stylesheet" href="./css/add_kh.css" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap"
+          rel="stylesheet"
+        />
+        <link
+          rel="stylesheet"
+          href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+          integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+          crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="/Home_main_page/css/reset.css" />
+      </head>
+      <body>
+        <div class="title">
+            <ul class="title_list">
+                <li class="header">
+                    <h2>Thông tin khách hàng</h2>
+                </li>
+                <li class="right_btn">
+                    <button onclick="cancle()">Huỷ</button>
+                </li>
+                <li class="right_btn">
+                    <button onclick="save()">Lưu</button>
+                </li>
+            </ul>
+        </div>
+        <div class="container">
+            <div class="right1">
+                <div class="inside">
+                    <ul>
+                        <li>Mã khách hàng</li>
+                        <li>Tên khách hàng</li>
+                        <li>Ngày sinh</li>
+                        <li>Địa chỉ giao hàng</li>
+                    </ul>
+                </div>
+                <div class="inside1">
+                    <ul>
+                        <li>
+                            <input class="input_1" id="code" type="text" placeholder="KH001">
+                        </li>
+                        <li>
+                            <input class="input_2" id="name" type="text" placeholder="Nguyễn Minh Tuấn">
+                        </li>
+                        <li>
+                            <input class="time" id="date" type="datetime-local">
+                        </li>
+                        
+                            <li>
+                                <textarea id="local" class="location" type="text" placeholder="Quận 1 Thành phố Hồ Chí Minh"></textarea>
+                            </li>
+                            <!-- <li><input class="input_2" type="text" placeholder="Quận 1 Thành phố Hồ Chí Minh"></li>
+                            <li><input class="input_2" type="text" placeholder="Quận 1 Thành phố Hồ Chí Minh"></li> -->
+                        
+                    </ul>
+                </div>
+            </div>
+            <div class="center"></div>
+            <div class="right">
+                <div class="inside">
+                    <ul>
+                        <li>Email</li>
+                        <li>Số điện thoại</li>
+                        <li>Giới tính</li>
+                    </ul>
+                </div>
+                <div class="inside1">
+                    <ul>
+                        <li>
+                            <input id="email" class="input_2" type="text" placeholder="19522471@gm.uit.edu.vn">
+                        </li>
+                        <li>
+                            <input id="phone" class="input_2" type="number" placeholder="0901422185">
+                        </li>
+                        <li>
+                            <select id="sex" name="" class="input_1">
+                                <option value="" >Nam</option>
+                                <option value="">Nữ</option>
+                                <option value="">Khác</option>
+                            </select>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <script src="./js/add_kh.js"></script>
+    </body>
+</html>

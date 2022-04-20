@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Lịch sử mua hàng</title>
+        <link rel="stylesheet" href="./css/history.css" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap"
+          rel="stylesheet"
+        />
+        <link
+          rel="stylesheet"
+          href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+          integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+          crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="/Home_main_page/css/reset.css" />
+      </head>
+<body>
+    <div class="scroll_table">
+        <table>
+          <thead>
+            <tr>
+              <th class="checked_btn">
+                <input class="all" type="checkbox" id="select_all" /> All
+              </th>
+              <th>Mã Đơn</th>
+              <th>Tình trạng</th>
+              <th>Thời gian đặt hàng</th>
+              <th>Tổng tiền</th>
+              <th>Thanh toán</th>
+              <!-- <th>Tổng đơn</th> -->
+              <th class="more_button_col"></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="checked_btn"><input type="checkbox" class="checkbox" /></td>
+              <td>DH0001</td>
+              <td>Đặt hàng</td>
+              <td>15/11/2021</td>
+              <td>150000</td>
+              <td>Đã thanh toán</td>
+              <td class="more_button_col">
+                <div class="dropdown_more_btn">
+                  <button class="more_button">
+                    <a><i class="fas fa-ellipsis-h"></i></a>
+                  </button>
+                  <div class="dropdown_content">
+                    <a href="#"><i class="fas fa-trash-alt"></i>Xoá</a>
+                    <a href="./thong_tin_KH/thong_tin_KH.html"
+                      ><i class="fas fa-info"></i>Chi tiết</a
+                    >
+                  </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+                <td class="checked_btn"><input type="checkbox" class="checkbox" /></td>
+                <td>DH0001</td>
+                <td>Đặt hàng</td>
+                <td>15/11/2021</td>
+                <td>150000</td>
+                <td>Đã thanh toán</td>
+                <td class="more_button_col">
+                  <div class="dropdown_more_btn">
+                    <button class="more_button">
+                      <a><i class="fas fa-ellipsis-h"></i></a>
+                    </button>
+                    <div class="dropdown_content">
+                      <a href="#"><i class="fas fa-trash-alt"></i>Xoá</a>
+                      <a href="./thong_tin_KH/thong_tin_KH.html"
+                        ><i class="fas fa-info"></i>Chi tiết</a
+                      >
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="checked_btn"><input type="checkbox" class="checkbox" /></td>
+                <td>DH0001</td>
+                <td>Đặt hàng</td>
+                <td>15/11/2021</td>
+                <td>150000</td>
+                <td>Đã thanh toán</td>
+                <td class="more_button_col">
+                  <div class="dropdown_more_btn">
+                    <button class="more_button">
+                      <a><i class="fas fa-ellipsis-h"></i></a>
+                    </button>
+                    <div class="dropdown_content">
+                      <a href="#"><i class="fas fa-trash-alt"></i>Xoá</a>
+                      <a href="./thong_tin_KH/thong_tin_KH.html"
+                        ><i class="fas fa-info"></i>Chi tiết</a
+                      >
+                    </div>
+                  </div>
+                </td>
+              </tr>
+          </tbody>
+        </table>
+      </div>
+      <button onclick="del()" class="btn_del">Xoá</button>
+</body>
+</html>

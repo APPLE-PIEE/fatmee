@@ -1,0 +1,274 @@
+.wrapper {
+  max-width: 1140px;
+}
+
+.section1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  line-height: 2.2;
+  color: #635f85;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.care {
+  display: flex;
+  list-style-type: none;
+  padding: none;
+}
+
+.fa-heart {
+  color: red;
+}
+
+.care_box1 {
+  color: rgb(255, 0, 0);
+}
+
+.care_box1,
+.care_box2 {
+  border-right: 1px solid rgba(0, 0, 0, 0.14);
+  padding-right: 30px;
+}
+
+.care_box2,
+.care_box3 {
+  padding-left: 30px;
+}
+
+.price {
+  color: #ff7d00;
+  margin-top: 20px;
+  padding: 5px 20px;
+  background-color: #fafafa;
+}
+
+.Cheap {
+  color: rgb(255, 0, 0);
+}
+
+.img-voucher {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.img-voucher > span {
+  color: red;
+}
+
+.fa-chevron-down {
+  border-radius: 50%;
+  background-color: red;
+  padding: 3px;
+  color: white;
+  font-size: 10px;
+}
+
+.voucher-info {
+  max-width: 420px;
+  position: absolute;
+  background-color: white;
+  display: none;
+  list-style-type: none;
+  width: 100%;
+  z-index: -10;
+  opacity: 0;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  transition: all 0.3s ease-in-out;
+  transform: translateY(-10px);
+}
+
+.voucher-info {
+  display: flex;
+  align-items: center;
+}
+
+.voucher-list:hover + .voucher-info {
+  display: block;
+  margin-top: 0px;
+  transform: translateY(20px);
+  opacity: 1;
+  z-index: 50;
+  margin-left: 10px;
+  
+}
+
+.voucher-box img {
+  height: 200px;
+  width: 100%;
+}
+
+.voucher-box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border: 1px solid rgba(0, 0, 0, 0.14);
+  align-items: center;
+}
+
+.voucher-box-img {
+  flex-basis: 20%;
+  border-right: 1px solid rgba(0, 0, 0, 0.14);
+  padding: 10px;
+}
+
+.voucher-box-img > img {
+  width: 60px;
+  height: 60px;
+  border: 1px solid rgba(0, 0, 0, 0.14);
+  border-radius: 50%;
+}
+
+.voucher-save > button {
+  padding: 5px 10px;
+  border: none;
+  background: linear-gradient(103.38deg, #f67102 5.1%, #f4a91e 86.29%);
+  color: white;
+}
+
+.voucher-save {
+  padding: 10px;
+  flex-basis: 20%;
+}
+
+.voucher-box-nd {
+  padding: 10px;
+  flex-basis: 50%;
+  line-height: 4px;
+  margin-top: 10px;
+  color: black;
+}
+
+.hsd {
+  color: rgba(0, 0, 0, 0.418);
+  font-size: 11px;
+}
+
+.ship-lable {
+  flex-basis: 20%;
+}
+
+.ship-address > p {
+  margin: 0px;
+}
+
+.ship {
+  display: flex;
+}
+
+.ship-address > p > i {
+  color: red;
+}
+
+.ship-address > span {
+  font-size: 12px;
+  line-height: 1px;
+}
+
+.footer {
+  margin-top: 20px;
+}
+
+.product-quantity {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.ship-address-number > input {
+  padding: 2px 10px;
+  border: 1px solid rgba(0, 0, 0, 0.14);
+  width: 70px;
+}
+
+.voucher-info {
+  line-height: 1;
+}
+.shoppingcart > button {
+  padding: 2px 13px;
+  margin-right: 20px;
+  margin-top: 15px;
+  border: none;
+  box-shadow: 0 1px 1px 0 rgb(0 0 0 / 9%);
+  color: #ffffff;
+  border: 2px;
+}
+.shoppingcart-box1 {
+    background: linear-gradient(103.38deg, #f67102 5.1%, #f4a91e 86.29%);
+}
+.shoppingcart-box2 {
+    background: red
+  }
+
+.section2{
+    height: 420px;
+}
+
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem
+}
+
+.comment-widgets .comment-row:hover {
+    background: rgba(0, 0, 0, 0.02);
+    cursor: pointer
+}
+
+.comment-widgets .comment-row {
+    border-bottom: 1px solid rgba(120, 130, 140, 0.13);
+    padding: 28px
+}
+
+.comment-text:hover {
+    visibility: hidden
+}
+
+.comment-text:hover {
+    visibility: visible
+}
+
+.label {
+    padding: 3px 10px;
+    line-height: 13px;
+    color: #ffffff;
+    font-weight: 400;
+    border-radius: 4px;
+    font-size: 75%
+}
+
+.round img {
+    border-radius: 100%
+}
+
+.label-info {
+    background-color: #1976d2
+}
+
+.label-success {
+    background-color: green
+}
+
+.label-danger {
+    background-color: #ef5350
+}
+
+.action-icons a {
+    padding-left: 7px;
+    vertical-align: middle;
+    color: #635f85;
+}
+
+.action-icons a:hover {
+    color: #1976d2
+}
+

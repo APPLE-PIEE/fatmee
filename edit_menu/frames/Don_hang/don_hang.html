@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Danh sách đơn hàng</title>
+    <link rel="stylesheet" href="./css/don_hang.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+      integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/Home_main_page/css/reset.css" />
+  </head>
+
+  <body>
+    <script src="./js/don_hang.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $("#select_all").on("click", function () {
+          if (this.checked) {
+            $(".checkbox").each(function () {
+              this.checked = true;
+            });
+          } else {
+            $(".checkbox").each(function () {
+              this.checked = false;
+            });
+          }
+        });
+
+        $(".checkbox").on("click", function () {
+          if ($(".checkbox:checked").length == $(".checkbox").length) {
+            $("#select_all").prop("checked", true);
+          } else {
+            $("#select_all").prop("checked", false);
+          }
+        });
+      });
+    </script>
+
+    <!-- <img src="/edit_menu/frames/Danh_muc_mon_an/Them_danh_muc/them_danh_muc.html" alt=""> -->
+    <div class="khuyen_mai_container">
+      <div class="header">
+        <h3>Danh sách đơn hàng</h3>
+        <button onclick="them_dh()">Thêm đơn hàng</button>
+      </div>
+      <div class="sap_xep">
+        <ul>
+          <li>
+            <input type="text" placeholder="Mã đơn hàng" />
+          </li>
+          <li>
+            <input type="text" placeholder="Tên khách hàng" />
+          </li>
+          <li>
+            <a>Ngày tạo</a>
+            <input class="time" type="date" />
+          </li>
+          <li>
+            <select name="" id="">
+              <option value="" disabled selected>Trạng thái</option>
+              <option value="">Đang giao dịch</option>
+              <option value="">Hoàn thành</option>
+              <option value="">Ngưng giao dịch</option>
+            </select>
+          </li>
+          <li>
+            <input type="number" placeholder="Giá thành" />
+          </li>
+          <li>
+            <button class="btn_search">Tìm kiếm</button>
+          </li>
+        </ul>
+
+        <div class="scroll_table">
+          <table>
+            <thead>
+              <tr>
+                <th class="checked_btn">
+                  <input class="all" type="checkbox" id="select_all" /> All
+                </th>
+                <th>Mã đơn hàng</th>
+                <th>Tên khách hàng</th>
+                <th>Ngày bắt đầu</th>
+                <th>Trạng thái</th>
+                <th>Giá thành</th>
+                <th class="more_button_col"></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="checked_btn"><input type="checkbox" class="checkbox" /></td>
+                <td>DH0001</td>
+                <td>Nguyễn Minh Tuấn</td>
+                <td>15/11/2021</td>
+                <td>Đang giao dịch</td>
+                <td>100000</td>
+                <td class="more_button_col">
+                  <div class="dropdown_more_btn">
+                    <button class="more_button">
+                      <a><i class="fas fa-ellipsis-h"></i></a>
+                    </button>
+                    <div class="dropdown_content">
+                      <a href="#"><i class="fas fa-trash-alt"></i>Xoá</a>
+                      <a href="./Thong_tin_DH/thong_tin_DH.html"
+                        ><i class="fas fa-info"></i>Chi tiết</a
+                      >
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="checked_btn"><input type="checkbox" class="checkbox" /></td>
+                <td>DH0001</td>
+                <td>Nguyễn Minh Tuấn</td>
+                <td>15/11/2021</td>
+                <td>Đang giao dịch</td>
+                <td>100000</td>
+                <td class="more_button_col">
+                  <div class="dropdown_more_btn">
+                    <button class="more_button">
+                      <a><i class="fas fa-ellipsis-h"></i></a>
+                    </button>
+                    <div class="dropdown_content">
+                      <a href="#"><i class="fas fa-trash-alt"></i>Xoá</a>
+                      <a href="./Thong_tin_DH/thong_tin_DH.html"
+                        ><i class="fas fa-info"></i>Chi tiết</a
+                      >
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="checked_btn"><input type="checkbox" class="checkbox" /></td>
+                <td>DH0001</td>
+                <td>Nguyễn Minh Tuấn</td>
+                <td>15/11/2021</td>
+                <td>Đang giao dịch</td>
+                <td>100000</td>
+                <td class="more_button_col">
+                  <div class="dropdown_more_btn">
+                    <button class="more_button">
+                      <a><i class="fas fa-ellipsis-h"></i></a>
+                    </button>
+                    <div class="dropdown_content">
+                      <a href="#"><i class="fas fa-trash-alt"></i>Xoá</a>
+                      <a href="./Thong_tin_DH/thong_tin_DH.html"
+                        ><i class="fas fa-info"></i>Chi tiết</a
+                      >
+                    </div>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <button onclick="del()" class="btn_del">Xoá</button>
+      </div>
+    </div>
+  </body>
+</html>
