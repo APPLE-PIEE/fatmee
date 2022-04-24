@@ -98,7 +98,7 @@ $("input.input-qty").each(function () {
   });
 });
 function adu(){
-  location.href = "../../TongcongtyFATme/mon-an/monan1/index.php";
+  location.href = "../../TongcongtyFATme/mon-an/monan1/index.html";
 }
 document.getElementById("gaga").onclick=function(){adu();};
 
@@ -110,7 +110,7 @@ function openCity(evt, cityName) {
   }
   tablinks = document.getElementsByClassName("tablink");
   for (i = 0; i < x.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" focus", ""); 
+    tablinks[i].className = tablinks[i].className.replace(" focus", "");
   }
   document.getElementById(cityName).style.display = "block";
   evt.currentTarget.className += " focus";
