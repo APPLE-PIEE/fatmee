@@ -35,11 +35,21 @@
   }
   &-form {
     background: #ffffff;
-    border-radius: 26.5px;
+    border-radius: 100rem;
     display: flex;
     justify-content: space-between;
     width: 100%;
     max-width: 373px;
+    border: 2px solid transparent;
+    &:hover {
+      border: 2px solid $gray-blur;
+      outline: none;
+    }
+    &:focus{
+      border: 2px solid $primary-color;
+      outline: none;
+      background-color: transparent;
+    }
   }
   &-field {
     flex: 1;
@@ -49,12 +59,16 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    font-family: "Poppins", sans-serif;
+    border-radius: 100rem;
+    font-family: "Source Sans Pro", sans-serif;
+    border: transparent;
     color: $gray-dark;
     outline: none;
-    border: 0;
     background-color: transparent;
     width: 100%;
+    &:focus + .subscribe-form{
+      border: 2px solid $primary-color;
+    }
   }
   @media screen and (max-width: 1023px) {
     &-heading {
